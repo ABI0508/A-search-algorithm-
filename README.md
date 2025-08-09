@@ -12,11 +12,6 @@ This project implements the A* (A-Star) pathfinding algorithm in Python. It allo
   - Optional heuristic values
 - Reconstructs and prints the shortest path found
 
-## 📌 Requirements
-
-- Python 3.6+
-
-No external dependencies are required; the code uses Python's built-in libraries like `heapq`.
 
 ## 🚀 How to Run
 
@@ -62,6 +57,6 @@ You can provide your own heuristics for A*, or skip them to use Dijkstra's algor
 The path is reconstructed from the goal node back to the start using parent pointers.
 
 
-A* is a widely used graph traversal and pathfinding algorithm, especially useful in fields like AI, robotics, and game development. It combines the benefits of Dijkstra’s algorithm with a heuristic to guide the search.
+A* is a widely used graph traversal and pathfinding algorithm.
 
 
